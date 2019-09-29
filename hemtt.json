@@ -1,0 +1,13 @@
+{
+  "name": "Anrop Faces of War JSRS",
+  "prefix": "anrop_fow_jsrs",
+  "version": "1.0.0",
+  "author": "Anrop",
+  "files": [
+    "mod.cpp"
+  ],
+  "keyname": "anrop_fow_jsrs",
+  "reuse_private_key": true,
+  "signame": "anrop_fow_jsrs",
+  "sigversion": 3
+}
