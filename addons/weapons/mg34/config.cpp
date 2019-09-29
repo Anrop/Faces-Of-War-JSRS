@@ -37,4 +37,19 @@ class CfgWeapons
             };
         };
     };
+
+    class HMG_M2;
+    class MGun;
+
+    class fow_w_mg34_mounted: HMG_M2
+    {
+        class manual: MGun
+        {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType
+            {
+                soundSetShot[] = {"jsrs_mg34_shot_soundset", "jsrs_ww2_mg_reverb_soundset"};
+            };
+        };
+    };
 };

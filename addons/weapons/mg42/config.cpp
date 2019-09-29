@@ -28,4 +28,18 @@ class CfgWeapons
             };
         };
     };
+
+    class HMG_M2;
+
+    class fow_w_mg42_mounted: HMG_M2
+    {
+        class FullAuto: Mode_FullAuto
+        {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType
+            {
+                soundSetShot[] = {"jsrs_mg42_shot_soundset", "jsrs_ww2_mg_reverb_soundset"};
+            };
+        };
+    };
 };
