@@ -38,7 +38,7 @@ class CfgWeapons
         class Single: Mode_SemiAuto
         {
             class BaseSoundModeType;
-            class StandardSound: StandardSound
+            class StandardSound: BaseSoundModeType
             {
                 soundSetShot[] = {"jsrs_acpc_shot_soundset", "jsrs_cal45_reverb_soundset"};
             };
