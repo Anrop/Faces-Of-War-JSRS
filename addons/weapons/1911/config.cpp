@@ -40,7 +40,7 @@ class CfgWeapons
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType
             {
-                soundSetShot[] = {"jsrs_acpc_shot_soundset", "jsrs_cal45_reverb_soundset"};
+                soundSetShot[] = {"jsrs_acpc_shot_soundset", "jsrs_ww2_pistol_reverb_soundset"};
             };
         };
     };
