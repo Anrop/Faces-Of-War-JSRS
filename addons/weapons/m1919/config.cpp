@@ -29,10 +29,9 @@ class CfgWeapons
         };
     };
 
-    class HMG_M2;
     class MGun;
 
-    class fow_w_m1919a4_mounted: HMG_M2
+    class fow_w_m1919a4_mounted: MGun
     {
         class manual: MGun
         {
