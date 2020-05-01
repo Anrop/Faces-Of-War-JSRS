@@ -16,9 +16,9 @@ class Mode_FullAuto;
 
 class CfgWeapons 
 {
-    class Pistol_Base_F;
+    class fow_rifle_base;
     
-    class fow_w_fg42 : Pistol_Base_F
+    class fow_w_fg42 : fow_rifle_base
     {
         bullet1[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\shells\medium\metal_1.ogg", 2.0099, 1, 10};
         bullet2[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\shells\medium\metal_2.ogg", 2.0099, 1, 10};

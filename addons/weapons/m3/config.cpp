@@ -12,6 +12,7 @@ class CfgPatches {
 };
 
 class Mode_SemiAuto;
+class Mode_Burst;
 class Mode_FullAuto;
 
 class CfgWeapons 
@@ -28,6 +29,13 @@ class CfgWeapons
             };
         };
         class Full: Mode_FullAuto
+        {
+            class StandardSound
+            {
+                soundSetShot[] = {"jsrs_m3a1_shot_soundset", "jsrs_ww2_smg_reverb_soundset"};
+            };
+        };
+        class Burst_AI: Mode_Burst
         {
             class StandardSound
             {
